@@ -1,0 +1,86 @@
+﻿.container {
+    border-radius: 5px;
+    background-color: #0083CF;
+    padding-top: 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.container input[type=text], input[type=password] {
+    width: 97%;
+    padding: 12px;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    width: 100%;
+}
+
+.message-error {    
+    color: white;
+    font-size: 12px;
+    background-color: #F4511e;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    width: 100%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-100 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.row {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-50, .col-75, .col-100 {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+

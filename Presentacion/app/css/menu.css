@@ -1,0 +1,96 @@
+.menu {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #0083CF;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.menu .btn-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.menu ul, .pnl-menu li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.menu ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.menu a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+	float:left; width:100%;
+}
+
+.menu ul li:hover {
+    color:#fff;
+    background-color: #f90;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;	
+	border-radius: 5px;	
+}
+
+.container {
+    transition: margin-left .4s;
+    padding: 1rem;   
+    width:100%; 
+}
+
+.container-title {
+    background-color: #0083CF;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+
+.open-close {
+    color: white;
+    font-size:2rem;   
+}
+
+.menu-name {
+	float: left;
+	margin-left: 15px;
+	padding-top: 4px;
+	text-transform: uppercase;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+}
+
+.open {
+    
+}
+
+.close {
+    display:none;
+}
